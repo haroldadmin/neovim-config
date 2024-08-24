@@ -70,7 +70,13 @@ return {
     -- Enable the following language servers
     local servers = {
       gopls = {},
-      yamlls = {},
+      yamlls = {
+        settings = {
+          yaml = {
+            schemas = { kubernetes = '*.yml' },
+          },
+        },
+      },
       jsonls = {},
       bufls = {},
       dockerls = {},
