@@ -57,7 +57,3 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 vim.opt.autochdir = true
-
--- Disable netrw in favour of neo-tree
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
